@@ -1,7 +1,7 @@
 /*
 IOS：阅多多/悦看点
 理论上可以直接跑两个APP的账号，每天金币7毛以上，提现1元和5元需要做任务拿提现券
-阅多多下载注册地址：https://yuekandian.yichengw.cn/download?app=3&referrer=729879
+阅多多下载注册地址：https://yuekandian.yichengw.cn/download?app=3&referrer=750427
 
 默认不提现1块，可以在环境变量yddSkipWithdraw设置不想提现的金额，逗号隔开，填0就会尝试提现所有金额
 export yddSkipWithdraw='1,5'
