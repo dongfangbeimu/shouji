@@ -1,7 +1,7 @@
 /*
 下载地址
-http://a.app.qq.com/o/simple.jsp?pkgname=com.xiangzi.jukandian&ckey=CK1416436838701
-邀请码必填得金币 24493019
+https://a.app.qq.com/o/simple.jsp?ctx=1639827607198&pkgname=com.xiangzi.jukandian&ckey=CK1416436838701
+邀请码必填得金币 24532710
 [rewrite_local]
 https://www.xiaodouzhuan.cn/jkd/user/userlive.action url script-request-body http://47.101.146.160/scripts/jkd.js
 
