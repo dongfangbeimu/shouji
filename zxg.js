@@ -38,10 +38,10 @@ MITM: wzq.tenpay.com
 圈X：
 [task_local]
 #腾讯自选股
-35 11,16 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstock.js, tag=腾讯自选股, enabled=true
+35 11,16 * * * https://raw.githubusercontent.com/dongfangbeimu/shouji/main/zxg.js, tag=腾讯自选股, enabled=true
 [rewrite_local]
 #获取APP和微信微证券的URL和header
-https://wzq.tenpay.com/cgi-bin/activity_task_daily.fcgi? url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstock.js
+https://wzq.tenpay.com/cgi-bin/activity_task_daily.fcgi? url script-request-header https://raw.githubusercontent.com/dongfangbeimu/shouji/main/zxg.js
 [MITM]
 hostname = wzq.tenpay.com
 
