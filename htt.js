@@ -1,9 +1,9 @@
 /*
 下载地址
-http://a13.app.qq.com/o/simple.jsp?pkgname=com.cashtoutiao&ckey=CK1430507080047
-邀请码必填得金币 05702911
+https://a13.app.qq.com/o/simple.jsp?pkgname=com.cashtoutiao&ckey=CK1430507080047
+邀请码必填得金币 31105224
 [rewrite_local]
-https://api.cashtoutiao.com/frontend/sign/record\S+ url script-request-body http://47.101.146.160/scripts/htt.js
+https://api.cashtoutiao.com/frontend/sign/record\S+ url script-request-body https://raw.githubusercontent.com/dongfangbeimu/shouji/main/htt.js
 hostname = api.cashtoutiao.com
 ##点任务获取数据##
 ===========ql===========
