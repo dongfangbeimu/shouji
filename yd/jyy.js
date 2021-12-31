@@ -4,11 +4,11 @@ boxjs地址 :
 
 [task_local]
 #加油鸭
-15 12 * * * wx_jyy.js, tag=加油鸭,
+15 12 * * * https://raw.githubusercontent.com/dongfangbeimu/shouji/main/yd/jyy.js, tag=加油鸭,
 
 [rewrite_local]
 #加油鸭
-^http://.+/api/wx/readSure url script-request-header wx_jyy.js
+^http://.+/api/wx/readSure url script-request-header https://raw.githubusercontent.com/dongfangbeimu/shouji/main/yd/jyy.js
 
 [MITM]
 hostname =
