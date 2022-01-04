@@ -20,7 +20,17 @@ http://www.baoshixingqiu.com/i20200424?key=2683582
 圈X配置如下，其他软件自行测试
 [task_local]
 #宝石星球
-30 0-23 * * * https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js, tag=宝石星球, img-url=https://s3.ax1x.com/2021/02/10/y0rDPg.png, enabled=true
+30 0-23 * * * https://ghproxy.com/https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js, tag=宝石星球, img-url=https://s3.ax1x.com/2021/02/10/y0rDPg.png, enabled=true
+[rewrite_local]
+#宝石星球
+^https://interface.baoshixingqiu.com/member/user/batch-diggle url script-request-header https://ghproxy.com/https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js
+#loon
+^https://interface.baoshixingqiu.com/member/user/batch-diggle script-path=https://ghproxy.com/https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js, requires-header=true, timeout=10, tag=宝石星球
+#surge
+宝石星球 = type=http-request,pattern=^https://interface.baoshixingqiu.com/member/user/batch-diggle,requires-header=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js,script-update-interval=0
+[MITM]
+hostname = interface.baoshixingqiu.com
+
 */
 const $ = new Env('宝石星球');
 status = (status = ($.getval("bsxqstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
