@@ -1,18 +1,15 @@
 /*
 软件名称:宝石星球
-下载链接http://www.baoshixingqiu.com/i20200424?key=2527552
+下载链接http://www.baoshixingqiu.com/i20200424?key=2683582
 更新时间：2021-02-11 @肥皂
 脚本说明：宝石星球领取红钻蓝钻
 脚本为挂机签到挖矿
 
 新年福利，宝石星球，老平台，稳的一批的平台，每天挂机挖矿领取红钻就可提现，无门槛的平台。
 
-TG电报群: https://t.me/hahaha8028
 注意:
 宝石星球下载请复制下方链接下载，只有TF版本
-
-http://www.baoshixingqiu.com/i20200424?key=2527552
-
+http://www.baoshixingqiu.com/i20200424?key=2683582
 
 我的邀请码 : 2527552  感谢大佬们填写 
 
@@ -23,31 +20,7 @@ http://www.baoshixingqiu.com/i20200424?key=2527552
 圈X配置如下，其他软件自行测试
 [task_local]
 #宝石星球
-30 0-23 * * * https://raw.githubusercontent.com/age174/-/main/bsxq.js, tag=宝石星球, img-url=https://s3.ax1x.com/2021/02/10/y0rDPg.png, enabled=true
-
-
-[rewrite_local]
-#宝石星球
-^https://interface.baoshixingqiu.com/member/user/batch-diggle url script-request-header https://raw.githubusercontent.com/age174/-/main/bsxq.js
-
-
-
-#loon
-^https://interface.baoshixingqiu.com/member/user/batch-diggle script-path=https://raw.githubusercontent.com/age174/-/main/bsxq.js, requires-header=true, timeout=10, tag=宝石星球
-
-
-
-#surge
-
-宝石星球 = type=http-request,pattern=^https://interface.baoshixingqiu.com/member/user/batch-diggle,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/bsxq.js,script-update-interval=0
-
-
-
-
-[MITM]
-hostname = interface.baoshixingqiu.com
-
-
+30 0-23 * * * https://raw.githubusercontent.com/dongfangbeimu/shouji/main/bsxq.js, tag=宝石星球, img-url=https://s3.ax1x.com/2021/02/10/y0rDPg.png, enabled=true
 */
 const $ = new Env('宝石星球');
 status = (status = ($.getval("bsxqstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
