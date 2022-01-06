@@ -4,7 +4,6 @@
 
 项目注册地址(微信扫码):https://www.juan920.com/1348.html
 
-(偷别人的,没有就拉下这个脚本)需要依赖 crypto-js.js ，文件地址：https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/crypto-js.js
 
 变量抓取:
 
