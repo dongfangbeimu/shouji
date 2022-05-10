@@ -1,5 +1,5 @@
 /**
- * 脚本地址: https://raw.githubusercontent.com/yml2213/javascript/master/tlm/tlm.js
+ * 脚本地址: https://raw.githubusercontent.com/dongfangbeimu/shouji/main/tlm.js
  * 转载请留信息,谢谢
  * 
  * 推了吗  链接带邀请  感谢走我的链接
